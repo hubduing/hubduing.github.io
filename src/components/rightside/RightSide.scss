@@ -1,0 +1,35 @@
+.bar {
+  width: 90%;
+  max-width: 90%;
+  font-size: 11pt;
+  height: 28px;
+  margin: 0 0 15px 0;
+  background-color: #eee;
+  color: #666;
+  position: relative;
+  &.d-flex {
+    justify-content: flex-end;
+  }
+  & span {
+    display: initial;
+    padding: 0 15px 0 0;
+    z-index: 1;
+  }
+}
+.fill {
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-color: #00a1a7;
+  opacity: 1;
+  padding: 0;
+}
+.tag {
+  width: 110px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-color: #04c2c9;
+  color: #fff;
+  height: 100%;
+}

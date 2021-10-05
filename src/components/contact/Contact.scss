@@ -1,0 +1,54 @@
+.form {
+  background: #252934;
+  color: #fff;
+}
+.contact {
+  line-height: 18pt;
+  padding: 100px 0 130px 0;
+  & .highlight {
+    color: #04c2c9;
+    font-weight: 600;
+  }
+
+  & header-bar {
+    margin: 25px 0 40px 0;
+    width: 110px;
+  }
+}
+.pop-in {
+
+  width: 500px;
+  margin: 40px auto 0;
+  & input, textarea {
+
+    background: #1e242c;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  & textarea {
+    margin-bottom: 5px;
+  }
+  & #success {
+    display: none;
+  }
+  & button {
+    display: inline-block;
+    float: right;
+    background: transparent;
+    color: #fff;
+    font-size: 12pt;
+    margin: 5px 0 0 0;
+    outline: 0;
+    padding: 10px 30px;
+    &:hover {
+      background: #04c2c9;
+      color: #fff;
+    }
+  }
+}

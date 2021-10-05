@@ -1,0 +1,27 @@
+.portfolio {
+  color: #333;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+@media (max-width: 1240px){
+  .gallery {
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 835px){
+  .gallery {
+    grid-template-columns: 1fr;
+  }    
+  .gallery__item {
+    margin: 0 auto;
+  }
+}

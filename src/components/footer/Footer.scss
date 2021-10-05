@@ -1,0 +1,73 @@
+.footer {
+  background: #1b242f;
+  padding: 70px 0 50px 0;
+  position: relative;
+}
+.fa-angle-double-up {
+  background: #bac962;
+  cursor: pointer;
+  font-size: 30pt;
+  height: 50px;
+  left: 0;
+  line-height: 40pt;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: -25px;
+  transition: background 0.5s;
+  width: 47px;
+  text-align: center;
+  color: #fff;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  & a {
+    display: inline;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  & i {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  & .footer-icon {
+    align-content: center;
+    background: #262f38;
+    cursor: pointer;
+    font-size: 18pt;
+    height: 30px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    width: 30px;
+    &:hover {
+      background: #04c2c9;
+    }
+  }
+}
+.footer-box {
+  text-align: center;
+}
+.copy {
+  color: #80a1ca;
+  font-size: 15pt;
+  margin-top: 35px;
+  opacity: 0.6;
+}
+
+@media (max-width: 550px){
+  .pop-in {
+    width: 100%;
+  }
+  .form .button {
+    width: 100%;
+  }
+}
