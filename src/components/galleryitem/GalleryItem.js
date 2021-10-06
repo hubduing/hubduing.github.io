@@ -1,12 +1,10 @@
 import React, {useState} from "react";
 import './GalleryItem.scss'
-import Modal from '../modal/Modal'
 import Img1 from '../../img/slides/portfolio1.png'
 import Img2 from '../../img/slides/portfolio2.png'
 import Img3 from '../../img/slides/portfolio3.png'
 import Img4 from '../../img/slides/portfolio4.png'
 
-import Modal2 from "../modal/Modal2";
 import AddModal from "../modal/AddModal";
 
 const GalleryItem = () => {
