@@ -19,7 +19,7 @@ const GalleryItem = () => {
 
     return (
       <>
-        <div className="gallery__item col-xxl-4 ">
+        <div className="gallery__item">
           <div className="galley__view">
             <div className="card1 card-prop"></div>
             <div className="text">
@@ -32,7 +32,7 @@ const GalleryItem = () => {
           </div>
         </div>
 
-        <div className="gallery__item col-xxl-4 ">
+        <div className="gallery__item">
           <div className="galley__view">
             <div className="card2 card-prop"></div>
             <div className="text">
@@ -45,7 +45,7 @@ const GalleryItem = () => {
           </div>
         </div>
 
-        <div className="gallery__item col-xxl-4 ">
+        <div className="gallery__item ">
           <div className="galley__view">
             <div className="card3 card-prop"></div>
             <div className="text">
@@ -58,7 +58,7 @@ const GalleryItem = () => {
           </div>
         </div>
 
-        <div className="gallery__item col-xxl-4 ">
+        <div className="gallery__item ">
           <div className="galley__view">
             <div className="card4 card-prop"></div>
             <div className="text">

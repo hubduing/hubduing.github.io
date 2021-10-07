@@ -1,11 +1,6 @@
 .gallery__item {
   position: relative;
 }
-.galley__view {
-  display: block;
-  text-align: center;
-  justify-content: center;
-}
 .card-prop {
   width: 390px;
   height: 300px;
@@ -53,18 +48,17 @@
     transition: all .5s ease;
   }
   &:hover {
+
     .text, .button {
       opacity: 1;
     }
 
     .text {
+      pointer-events:none;
       top: 20%;
     }
     .button {
       bottom: 20%;
-    }
-    .card {
-      opacity: 0;
     }
   }
   & .text {

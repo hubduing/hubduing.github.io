@@ -9,7 +9,7 @@ export default function Title() {
           <div className="bubl">
             <div className="bublcontent">
               <div className="title">
-                <h1>Hello, I'm <strong>Alexey Borisov</strong>. <br/> I am writing apps and sites using html5, react, bootstrap, jest & typesript. </h1>
+                <h1>Hello, I'm <strong>Alexey Borisov</strong>. <br/> I am writing apps and sites using html5, react, bootstrap </h1>
                 <a  href="#navbar-link" className="button view btn btn-white btn-animate" >View work <i className="fas fa-arrow-right"></i></a>
               </div>
             </div>
