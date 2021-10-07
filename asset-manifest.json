@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/hubduing/hubduing.github.io.git/static/css/main.fa425ffb.chunk.css",
-    "main.js": "/hubduing/hubduing.github.io.git/static/js/main.b283e978.chunk.js",
-    "main.js.map": "/hubduing/hubduing.github.io.git/static/js/main.b283e978.chunk.js.map",
-    "runtime-main.js": "/hubduing/hubduing.github.io.git/static/js/runtime-main.fe68f89f.js",
-    "runtime-main.js.map": "/hubduing/hubduing.github.io.git/static/js/runtime-main.fe68f89f.js.map",
-    "static/css/2.28bb0c3d.chunk.css": "/hubduing/hubduing.github.io.git/static/css/2.28bb0c3d.chunk.css",
-    "static/js/2.21fa7178.chunk.js": "/hubduing/hubduing.github.io.git/static/js/2.21fa7178.chunk.js",
-    "static/js/2.21fa7178.chunk.js.map": "/hubduing/hubduing.github.io.git/static/js/2.21fa7178.chunk.js.map",
-    "index.html": "/hubduing/hubduing.github.io.git/index.html",
-    "static/css/2.28bb0c3d.chunk.css.map": "/hubduing/hubduing.github.io.git/static/css/2.28bb0c3d.chunk.css.map",
-    "static/css/main.fa425ffb.chunk.css.map": "/hubduing/hubduing.github.io.git/static/css/main.fa425ffb.chunk.css.map",
-    "static/js/2.21fa7178.chunk.js.LICENSE.txt": "/hubduing/hubduing.github.io.git/static/js/2.21fa7178.chunk.js.LICENSE.txt",
-    "static/media/myFoto.d36fc3d4.png": "/hubduing/hubduing.github.io.git/static/media/myFoto.d36fc3d4.png",
-    "static/media/GalleryItem.scss": "/hubduing/hubduing.github.io.git/static/media/portfolio4.f90e046d.png"
+    "main.css": "/static/css/main.9fd5436a.chunk.css",
+    "main.js": "/static/js/main.0530b869.chunk.js",
+    "main.js.map": "/static/js/main.0530b869.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5216586e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5216586e.js.map",
+    "static/css/2.28bb0c3d.chunk.css": "/static/css/2.28bb0c3d.chunk.css",
+    "static/js/2.21fa7178.chunk.js": "/static/js/2.21fa7178.chunk.js",
+    "static/js/2.21fa7178.chunk.js.map": "/static/js/2.21fa7178.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.28bb0c3d.chunk.css.map": "/static/css/2.28bb0c3d.chunk.css.map",
+    "static/css/main.9fd5436a.chunk.css.map": "/static/css/main.9fd5436a.chunk.css.map",
+    "static/js/2.21fa7178.chunk.js.LICENSE.txt": "/static/js/2.21fa7178.chunk.js.LICENSE.txt",
+    "static/media/myFoto.d36fc3d4.png": "/static/media/myFoto.d36fc3d4.png",
+    "static/media/GalleryItem.scss": "/static/media/portfolio4.bf6a0523.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe68f89f.js",
+    "static/js/runtime-main.5216586e.js",
     "static/css/2.28bb0c3d.chunk.css",
     "static/js/2.21fa7178.chunk.js",
-    "static/css/main.fa425ffb.chunk.css",
-    "static/js/main.b283e978.chunk.js"
+    "static/css/main.9fd5436a.chunk.css",
+    "static/js/main.0530b869.chunk.js"
   ]
 }
