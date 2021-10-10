@@ -1,61 +1,30 @@
 import React from 'react'
 import './RightSide.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SkillRow from "../skillRow/SkillRow";
 
 export default function RightSide() {
   return (
-    <div 
-    className="d-flex flex-column flex-wrap align-items-center animated slide-in-right"
-    data-animation="slide-in-right"
-    >
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 90 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">CSS</div>
+      <>
+        <div 
+        className="d-flex flex-column flex-wrap align-items-center animated slide-in-right"
+        data-animation="slide-in-right"
+        >
+        <SkillRow procent={90} title="CSS" />
+        <SkillRow procent={90} title="HTML" />
+        <SkillRow procent={80} title="JavaScript" />
+        <SkillRow procent={80} title="Bootstrap" />
+        <SkillRow procent={50} title="Jest" />
+        <SkillRow procent={50} title="TypeScript" />
+        <SkillRow procent={50} title="REACT" />
+        <SkillRow procent={70} title="Python" />
+        <SkillRow procent={35} title="Express" />
+        <SkillRow procent={65} title="MySql" />
+        <SkillRow procent={50} title="Photoshop" />
+        <SkillRow procent={90} title="Figma" />
+        <SkillRow procent={90} title="Avacode" />
         </div>
-        <span>90%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 90 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">HTML</div>
-        </div>
-        <span>90%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 50 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">React</div>
-        </div>
-        <span>80%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 80 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">JavaScript</div>
-        </div>
-        <span>80%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 70 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">Python</div>
-        </div>
-        <span>50%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 35 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">Node.js</div>
-        </div>
-        <span>65%</span>
-      </div>
-
-      <div className="bar d-flex">
-        <div className="bar fill" style={{width: 60 + "%"}}>
-          <div className="tag fw-bold d-flex justify-content-center">Photoshop</div>
-        </div>
-        <span>50%</span>
-      </div>
-    </div>
+      </>
   )
 }
+{/* 90, 90, 50, 80, 70, 35, 60 */}
