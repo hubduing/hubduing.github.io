@@ -16,13 +16,11 @@ export default function RightSide() {
         <SkillRow procent={80} title="Bootstrap" />
         <SkillRow procent={50} title="Jest" />
         <SkillRow procent={50} title="TypeScript" />
-        <SkillRow procent={50} title="REACT" />
+        <SkillRow procent={60} title="REACT" />
         <SkillRow procent={70} title="Python" />
-        <SkillRow procent={35} title="Express" />
-        <SkillRow procent={65} title="MySql" />
+        <SkillRow procent={55} title="MySql" />
         <SkillRow procent={50} title="Photoshop" />
         <SkillRow procent={90} title="Figma" />
-        <SkillRow procent={90} title="Avacode" />
         </div>
       </>
   )
