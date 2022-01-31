@@ -43,12 +43,12 @@
   transition: all .5s ease;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
 
   & .card {
     transition: all .5s ease;
   }
   &:hover {
-
     .text, .button {
       opacity: 1;
     }
@@ -61,6 +61,7 @@
       bottom: 20%;
     }
   }
+
   & .text {
     left: 0;
     position: absolute;
@@ -84,7 +85,7 @@
     margin: 0 auto;
     padding: 7px 0;
     width: 170px;
-    cursor: pointer;
+    pointer-events: none;
   }
 }
 .modal__content {

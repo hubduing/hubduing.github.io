@@ -12,17 +12,22 @@ export default function RightSide() {
         >
         <SkillRow procent={90} title="CSS" />
         <SkillRow procent={90} title="HTML" />
-        <SkillRow procent={80} title="JavaScript" />
+        <SkillRow procent={90} title="JavaScript" />
         <SkillRow procent={80} title="Bootstrap" />
         <SkillRow procent={50} title="Jest" />
         <SkillRow procent={50} title="TypeScript" />
-        <SkillRow procent={60} title="REACT" />
+        <SkillRow procent={70} title="React" />
+        <SkillRow procent={40} title="Redux" />
+        <SkillRow procent={65} title="Vue" />
+        <SkillRow procent={75} title="Jquey" />
+        <SkillRow procent={75} title="Ajax" />
+        <SkillRow procent={30} title="Express" />
         <SkillRow procent={70} title="Python" />
-        <SkillRow procent={55} title="MySql" />
+        <SkillRow procent={75} title="MySql" />
+        <SkillRow procent={55} title="Mongo" />
         <SkillRow procent={50} title="Photoshop" />
         <SkillRow procent={90} title="Figma" />
         </div>
       </>
   )
 }
-{/* 90, 90, 50, 80, 70, 35, 60 */}
